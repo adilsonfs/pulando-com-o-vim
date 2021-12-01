@@ -12,3 +12,15 @@ Seja na alteração de um texto já existente ou na composição de um novo, a e
 
 Os pulos mais conhecidos e que já possuem tecla especial no teclado são Home e End, que vão ao início e fim da linha e PgUp/PgDn que pulam páginas. O Vim possui comandos para pular a outras partes do arquivo, são eles:
 
+Comando;   Ação;
+  gg      Pula para primeira linha
+  G       Pula para última linha
+  :44     Pula para a linha número 44
+  {       Pula para o parágrafo anterior
+  }       Pula para o próximo parágrafo
+  (       Pula para a frase anterior
+  )       Pula para a próxima frase
+  O       Pula para o inicio da linha atual
+  $       Pula para o fim da linha atual
+  ..      Desfaz o pulo, volta
+  *****************************************************************************************************************************************************************************************************************************************
